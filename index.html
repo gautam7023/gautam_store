@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gautam Stationery | Home</title>
+    <link rel="icon" href="./images/unnamed (2).jpg" type="image/jpg" />
+    <link rel="stylesheet" href="./CSS/shop.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- <h1>Gautam Stationery & Book Store</h1> -->
+      <!-- <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html">🛒 Cart</a></li>
+        </ul>
+      </nav> -->
+      <nav class="navbar">
+        <div class="navbar-container">
+          <h1><a href="./index.html">Gautam Stationery</a></h1>
+          <!-- <div class="logo">
+            <img src="./images/logo.jpg" alt="Gautam Stationery Logo" />
+          </div> -->
+          <ul class="nav-links">
+            <li>
+              <!-- <h1>Gautam Stationery</h1> -->
+            </li>
+            <li>
+              <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <!-- <li>
+              <a href=""><i class="fas fa-th-large"></i> Categories</a>
+            </li> -->
+            <li>
+              <a href="about.html"
+                ><i class="fas fa-info-circle"></i> About Us</a
+              >
+            </li>
+            <li>
+              <a href="contact.html"
+                ><i class="fas fa-phone-alt"></i> Contact</a
+              >
+            </li>
+            <!-- <li>
+              <a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+            </li> -->
+            <li>
+              <a href="https://wa.me/<7023894562>" target="_blank"
+                ><i class="fab fa-whatsapp"></i> WhatsApp</a
+              >
+            </li>
+            <li class="shop-now-btn">
+              <a href="https://whatsapp.com/channel/0029VaxIy3A1XquaefXW1M3Y"
+                ><i class="fab fa-whatsapp"></i> Follow us</a
+              >
+            </li>
+          </ul>
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+
+      <div class="mobile-menu">
+        <ul>
+          <li>
+            <a href="./index.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="./about.html"
+              ><i class="fas fa-info-circle"></i> About Us</a
+            >
+          </li>
+          <li>
+            <a href="./contact.html"
+              ><i class="fas fa-phone-alt"></i> Contact</a
+            >
+          </li>
+          <li>
+            <a href="https://wa.me/<7023894562>" target="_blank"
+              ><i class="fab fa-whatsapp"></i> WhatsApp</a
+            >
+          </li>
+          <li>
+            <a href="https://whatsapp.com/channel/0029VaxIy3A1XquaefXW1M3Y"
+              ><i class="fas fa-store"></i> Follow Now</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <script>
+        const hamburger = document.querySelector(".hamburger");
+        const mobileMenu = document.querySelector(".mobile-menu");
+
+        hamburger.addEventListener("click", () => {
+          mobileMenu.classList.toggle("active");
+        });
+      </script>
+    </header>
+    <section class="hero-banner">
+      <div class="hero-overlay"></div>
+      <div class="hero-text">
+        <h2>Your One-Stop Shop for All Stationery Needs!</h2>
+        <p>
+          Follow Us and Stay Updated!<br />
+          📲 Get the latest updates, new arrivals, and special offers directly
+          on your phone!
+        </p>
+        <a
+          href="https://whatsapp.com/channel/0029VaxIy3A1XquaefXW1M3Y"
+          class="cta-button"
+          >Follow Now</a
+        >
+      </div>
+    </section>
+
+    <section class="categories">
+      <h2>📚 Our Categories:</h2>
+      <div class="category-list">
+        <div class="category">
+          <a href="#">📚 Books & Notebooks – 📖 ✍️</a>
+        </div>
+        <div class="category">
+          <a href="#">🖊️ Pens & Writing Essentials – ✏️ 🖋️ 🖊️</a>
+        </div>
+        <div class="category">
+          <a href="#">🎨 Art & Craft Supplies – 🖌️ 🎭 🖍️ </a>
+        </div>
+        <div class="category">
+          <a href="#">📂 Office Supplies – 📁 🗂️ 📝</a>
+        </div>
+        <div class="category">
+          <a href="#">🎒 School Accessories – 📏 🎒 ✂️</a>
+        </div>
+        <div class="category">
+          <a href="#">🏏 Sports Goods – 🏀 🏏 🏸</a>
+        </div>
+        <div class="category">
+          <a href="#">🪔 Festival & Puja Items – 🎇 🪔 🙏</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular-brands">
+      <h2>⭐ Popular Brands Available</h2>
+
+      <!-- Logo Section -->
+      <!-- <div class="brand-logo-container">
+        <img
+          src="./images/logo.png"
+          alt="Gautam Stationery Logo"
+          class="shop-logo"
+        />
+      </div> -->
+
+      <!-- Brands Grid -->
+      <div class="brands-grid">
+        <div class="brand-card">
+          <img src="./images/cl.png" alt="Classmate" />
+          <p>CLASSMATE</p>
+        </div>
+        <div class="brand-card">
+          <img src="./images/br2.png" alt="Camlin" />
+          <p>CAMLIN</p>
+        </div>
+        <div class="brand-card">
+          <img src="./images/doms.png" alt="Doms" />
+          <p>DOMS</p>
+        </div>
+        <div class="brand-card">
+          <img src="./images/nav.jpg" alt="Navneet" />
+          <p>NAVNEET</p>
+        </div>
+        <div class="brand-card">
+          <img src="./images/download.png" alt="Parker" />
+          <p>PARKER</p>
+        </div>
+      </div>
+
+      <div class="brands-grid">
+        <div class="brand-card">
+          <img src="./images/flair.png" alt="Classmate" />
+          <p>FLAIR</p>
+        </div>
+        <div class="brand-card">
+          <img src="./images/lxr.png" alt="Camlin" />
+          <p>LUXAR</p>
+        </div>
+        <div class="brand-card">
+          <img src="./images/hp1.jpg" alt="Doms" />
+          <p>HINDUSTAN PENCIL</p>
+        </div>
+        <div class="brand-card">
+          <img src="./images/link.webp" alt="Navneet" />
+          <p>LINC</p>
+        </div>
+        <div class="brand-card">
+          <img src="./images/pidilite.png" alt="Parker" />
+          <p>PIDILITE</p>
+        </div>
+      </div>
+
+      <div class="brands-grid">
+        <div class="brand-card">
+          <img src="./images/ncert.png" alt="Classmate" />
+          <p>NCERT</p>
+        </div>
+        <div class="brand-card">
+          <img src="./images/bb.jpg" alt="Camlin" />
+          <p>BHARTI BHAWAN</p>
+        </div>
+        <div class="brand-card">
+          <img src="./images/rp.png" alt="Doms" />
+          <p>REKHA PRAKASHAN</p>
+        </div>
+        <div class="brand-card">
+          <img src="./images/./man (1).jpg" alt="Navneet" />
+          <p>MANORMA'S</p>
+        </div>
+        <div class="brand-card">
+          <img src="./images/sbpd.jpg" alt="Parker" />
+          <p>SBPD</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 Gautam Stationery. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
